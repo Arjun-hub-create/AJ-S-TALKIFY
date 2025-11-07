@@ -1,0 +1,17 @@
+# Copy and paste these commands ONE BY ONE in PowerShell
+
+# 1. Navigate to your project
+cd "c:\Users\arjun\OneDrive\Documents\AJ'S TALKIFY"
+
+# 2. Add GitHub remote (REPLACE WITH YOUR ACTUAL URL AFTER CREATING REPO!)
+git remote add origin https://github.com/Arjun-hub-create/AJ-S-TALKIFY.git
+
+# 3. Rename branch to main
+git branch -M main
+
+# 4. Push to GitHub
+git push -u origin main
+
+# If you get an error about remote already existing, use this instead:
+# git remote set-url origin https://github.com/Arjun-hub-create/AJ-S-TALKIFY.git
+# git push -u origin main
