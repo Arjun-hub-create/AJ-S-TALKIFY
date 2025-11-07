@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, '../client')));
 
 // MongoDB Connection - YOUR ATLAS CONNECTION
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://arjunmarjun74_db_user:aGlhyjbCobrxQu87@clusteraj.uqfj2vb.mongodb.net/ajs_wave?retryWrites=true&w=majority&appName=ClusterAJ';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://arjunmarjun74_db_user:mO37Dpzr1iUIHZ8A@collection.ui1uvj2.mongodb.net/?appName=collection';
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
